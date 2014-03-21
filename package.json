@@ -1,0 +1,32 @@
+{
+  "name": "lineman-protractor",
+  "title": "A protractor plugin for Lineman",
+  "version": "0.0.1",
+  "homepage": "https://github.com/linemanjs/lineman-bower",
+  "author": {
+    "name": "Jesus Rodriguez"
+  },
+  "scripts": {
+    "postinstall": "node script/postinstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/foxandxss/lineman-protractor.git"
+  },
+  "main": "main.js",
+  "dependencies": {
+    "protractor": ">= 0.20.0",
+    "coffee-script": "~1.7.1",
+    "find-root-package": "0.0.1",
+    "grunt": "~0.4.2"
+  },
+  "peerDependencies": {
+    "lineman": ">= 0.28.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://mit-license.org"
+    }
+  ]
+}
